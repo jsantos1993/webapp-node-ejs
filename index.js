@@ -43,17 +43,7 @@ app.use((req, res, next) => {
   res.status(404).render('404', {
     pageTitle: 'Pagina no encontrada'
   })
-}) 
-
-const leerArchivos = () => {
-  fs.readdir(__dirname+'/public/images', function(error, archivos){
-    if(error){
-      return console.log(error);
-    }
-    console.log("files",archivos)
-    return archivos
-  })
-}
+})
 
 app.listen(PORT, () => {
   console.log('Listen on port: ', PORT);
