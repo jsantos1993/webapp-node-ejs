@@ -1,0 +1,13 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Squada+One&display=swap');
+
+.carousel-item .title {
+  font-family: 'Squada One', 'Roboto', sans-serif;
+  font-size: 3.5rem;
+}
+
+@media (max-width: 768px) { 
+  .card {
+    margin-bottom: 15px;
+  }
+ }
